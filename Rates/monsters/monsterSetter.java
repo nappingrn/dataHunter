@@ -27,7 +27,8 @@ public class monsterSetter {
 			}
 		} catch (SQLException e) {e.printStackTrace();}
 		
-		return monsterList;
+		return monsterList; // after generating a list from the db, return the list full
+							// of monster items to later format and then print.
 	}
 	
 	

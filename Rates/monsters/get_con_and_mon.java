@@ -8,7 +8,7 @@ public class get_con_and_mon {
 	
 	public void populate() {
 		
-		Connection con = Monster_db_conn.getRemoteConnection();
+		Connection con = monster_dao.getRemoteConnection();
 		
 		try {
 			
