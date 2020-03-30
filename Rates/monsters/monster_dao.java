@@ -16,7 +16,7 @@ public class monster_dao {
 	      Class.forName("org.postgresql.Driver");
 	      String dbName = "monsters";
 	      String userName = "UserHunter"; // fill in later
-	      String password = "verysecurepassword"; // save in text file
+	      String password = ""; // save in text file
 	      String hostname = "bankingapp.c3povt7bydjz.us-east-2.rds.amazonaws.com";
 	      String port = "5432";
 	      String jdbcUrl = "jdbc:postgresql://" + hostname + ":" + port + "/" + dbName + "?user=" + userName + "&password=" + password;
